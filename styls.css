@@ -60,6 +60,7 @@ nav{
 
 }
 nav .nav-logo-container {
+    font-size: 36px;
     display: flex;
     justify-items: right;
     align-items:center;
