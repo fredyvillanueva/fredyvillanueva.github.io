@@ -105,7 +105,6 @@ header .bio img{
    display: inline-block;
    flex-direction: column;
    border-radius: 50%;
-   padding: 10px;
 }
 header .bio{ 
     display: flex; 
