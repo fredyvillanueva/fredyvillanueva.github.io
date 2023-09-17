@@ -8,5 +8,34 @@
 }
 
 body{
-    background-color: blue;
+    background-color: black;
+}
+
+.caja1{
+    
+    text-align: center;
+    background-color: yellow;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+a:hover{
+    color: cyan;
+}
+
+.caja2{
+    text-align: center;
+    background-color: aqua;
+}
+.caja2 h1{
+    color: white;
+}
+
+.caja3{
+    background-color: chartreuse;
 }
