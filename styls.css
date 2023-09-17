@@ -11,17 +11,36 @@ body{
     background-color: black;
 }
 
-.caja1{
+header{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*nav{
+
     
     text-align: center;
     background-color: yellow;
-}
-li{
+    padding: 10px 0;
+
+}*/
+
+nav ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
-a{
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
     text-decoration: none;
-    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
     
 }
 a:hover{
@@ -29,13 +48,26 @@ a:hover{
 }
 
 .caja2{
+    position: absolute;
+    top: 500%;
+    left: -20%;
+    
+
     text-align: center;
-    background-color: aqua;
 }
 .caja2 h1{
     color: white;
+    text-align: left;
+    font-size: 40px;
 }
 
 .caja3{
-    background-color: chartreuse;
+    position: absolute;
+    top: 200%;
+    left: 60%;
+}
+.caja3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
