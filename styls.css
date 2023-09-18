@@ -1,8 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Teko', sans-serif;
+    
+}
+body{
+    background-image: url(/media/fondo03.jpg);
+    background-size: cover;
 }
 
 
@@ -12,7 +15,10 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.caja1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
 nav ul{
     list-style: none;
     margin: 0;
@@ -27,23 +33,28 @@ nav a{
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    color: rgb(214, 168, 41);
+    color: rgb(9, 157, 216);
     
 }
 a:hover{
-    color: cyan;
+    color: white;
 }
 
 .caja2{
     position: absolute;
-    top: 500%;
-    left: -20%;
+    top: 250%;
+    left: -60%;
     text-align: center;
 }
 .caja2 h1{
-    color: white;
+    color: #099dd8;
     text-align: left;
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
 }
 
 .caja3{
@@ -55,14 +66,5 @@ a:hover{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-}
-
-.vid{
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -1;
+    border: 5px solid #099dd8;
 }
