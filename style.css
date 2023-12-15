@@ -1,3 +1,8 @@
+:root {
+    --rojo: #252525;
+    --fondo: #323232;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,12 +10,18 @@
 }
 
 body{
-    background-color: #2d2d2b;
+    background: var(--rojo);
 }
-.Titulo{
-    color: white;
+p{
     text-align: center;
+    font-size: 6em;
+    font-family: 'Courier New', Courier, monospace;
+
 }
-.description{
-    color: chocolate;
+li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+li{
+    text-align: center;
 }
