@@ -8,20 +8,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
-    background: var(--rojo);
-}
-p{
-    text-align: center;
-    font-size: 6em;
-    font-family: 'Courier New', Courier, monospace;
-
-}
-li a{
-    text-decoration: none;
-    list-style-type: none;
-}
-li{
-    text-align: center;
-}
