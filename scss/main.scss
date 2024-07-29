@@ -1,0 +1,29 @@
+$primary-color: #7f5f4f;
+$secondary-color: #7f5f3f;
+$tertiary-color: #7f5f6f;
+$primary-text-color: #7f4f3c;
+$font-stack: "Honk", system-ui;
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: chartreuse;
+}
+
+nav{
+    background-color: aquamarine;
+    width: 100%;
+    height: 200px;
+}
+main{
+    background-color: blueviolet;
+    width: 100%;
+    height: 200px;
+}
+footer p{
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+}
